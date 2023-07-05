@@ -1,8 +1,13 @@
-# Getting started with the Gen AI Studio UI
+# Explore and Evaluate Model Garden
 
 ## Overview
 
-Vertex AI is Google Cloud's unified service for managing machine learning and generative AI projects. Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text and code generation simple and intuative. 
+Vertex AI is Google Cloud's unified service for managing machine learning and generative AI projects. 
+
+Model Garden
+
+
+Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text and code generation simple and intuative. 
 
 In this lab, you learn how to use Generative AI studio to create and experiment with prompts for various generative AI uses cases. You will explore the Gen AI Studio UI, and you will create text and code prompts and chats. 
 
