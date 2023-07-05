@@ -1,0 +1,33 @@
+schema_version: 2
+default_locale: en
+title: Copy this lab template 
+description: Use this template to start creating your lab
+duration: 1
+max_duration: 1
+credits: 
+level: 
+tags:
+- gsp0000
+resources:
+environment:
+  resources:
+  - type: gcp_project
+    id: project_0
+    ssh_key_user: user_0
+    allowed_locations:
+    - us-central1-f
+  - type: gcp_user
+    id: user_0
+    permissions:
+    - project: project_0
+      roles:
+      - roles/editor
+  student_visible_outputs:
+  - label: Open Google Console
+    reference: project_0.console_url
+  - label: Username
+    reference: user_0.username
+  - label: Password
+    reference: user_0.password
+  - label: GCP Project ID
+    reference: project_0.project_id
