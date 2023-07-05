@@ -1,10 +1,19 @@
-# Explore and Evaluate Model Garden
+# Explore and Evaluate Models Using Model Garden
 
 ## Overview
 
 Vertex AI is Google Cloud's unified service for managing machine learning and generative AI projects. 
 
-Model Garden
+Vertex AI Model Garden is a collection of pre-trained machine learning models and tools that are designed to simplify the process of building and deploying machine learning models. It is a part of Vertex AI, Google Cloud's unified artificial intelligence platform.
+Vertex AI Model Garden is a valuable resource for machine learning developers who are looking for pre-trained models and tools to accelerate their projects. It is a convenient and easy-to-use platform that can help you get started with machine learning quickly and easily.
+
+Model Garden provides a single place to search, discover, and interact with a wide variety of models from Google and Google partners. These models cover a wide range of use cases, including computer vision, natural language processing, and tabular data analysis.
+
+Model Garden also provides a variety of tools to help you use these models, including:
+
+Model cards: Model cards provide detailed information about each model, including its accuracy, performance, and training data.
+Prompt design: Prompt design allows you to interact with a model via a simple UI and tune the model with your own data.
+Deployment: Model Garden can help you deploy your models to a production environment.
 
 
 Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text and code generation simple and intuative. 
@@ -148,6 +157,11 @@ Can you give me that code in Go?
 ```
 
 5. Save your prompt as you did before, name this one something like `My Code Chat`.
+
+## Bonus: Here are some links to Vertex AI Model Garden
+Vertex AI Model Garden website: https://cloud.google.com/model-garden
+Vertex AI Model Garden documentation: https://cloud.google.com/vertex-ai/docs/start/explore-models
+Vertex AI Model Garden blog post: https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-model-garden-and-generative-ai-studio
 
 ## Bonus: Exploring Gen AI Studio
 
