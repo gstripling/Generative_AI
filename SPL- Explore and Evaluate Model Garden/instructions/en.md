@@ -81,7 +81,7 @@ What is my estimated monthly mortgage payment on a 30 year loan at today's curre
 My credit score is 650
 The home purchase price is 500,000
 What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
-I am looking for a home with three bedrooms with a good walkability index.
+Show me some homes for sale in zip code 33020
 ```
 
 5. In the properties pane on the right, increase the __Token Limit__ to 1024, and then submit the request again. Examine the results. 
