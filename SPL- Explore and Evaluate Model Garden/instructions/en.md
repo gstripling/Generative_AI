@@ -137,46 +137,20 @@ The respose should be similar to what is shown below.
 Write Python code to show the calculation of mortgage rate?
 ```
 
-Click the __View Code__ button in the Gen AI Studio toolbar. Use this script to request a model response in your application.
+Your response should resemble the following:
 
 ![Response](images/mortgage_code_response.png) 
 
 
-3. Save your prompt, name it something like `My Code Prompt`.
-
-
-## Task 4: Creating a Code Chat
-
-1. In the Tools pane on the left, click __Language__ from the __Generative AI Studio__ section as you did earlier. This time, click __Code Chat__ on the Get Started page.
-
-![Code Chat](images/code-chat.png)
-
-2. In the prompt text box enter the following and submit it. 
-
-```
-Generate the code to run a SQL query against a Spanner database. The Spanner instance is called spanner-instance and the database is named orders-db.
-```
-
-3. The results should be similar to what is shown below. 
-
-![Code Response](images/code-response1.png)
-
-4. Ask for a different language. 
-
-```
-Can you give me that code in Go?
-```
-
-5. Save your prompt as you did before, name this one something like `My Code Chat`.
-
+3. Save your prompt, name it something like `Mortgage Calculation`.
 
 
 
 #TESTERS STOP HERE
 
-## Task 3: Perform entity analysis
+## Task 4: Perform entity analysis
 
-## Fine-tune models to meet your specific needs
+## Task 5: Fine-tune models to meet your specific needs
 
 Prompt design strategies, such as few shot prompting, may not always suffice for customizing model behavior. Use model tuning to improve a model's performance on specific tasks or help the model adhere to specific output requirements when instructions aren't sufficient. This page shows you how to tune a foundation model in Vertex AI and gives guidance on how to achieve the best results.
 
