@@ -123,8 +123,73 @@ The respose should be similar to what is shown below.
 
 #TESTERS STOP HERE
 
+## Task 2: Structure Prompts in Gen AI Studio
 
-## Task 2: Exploring Gen AI Use Cases
+1. In Gen AI Studio, click the __Structured__ button in the toolbar. 
+
+![Structured](images/structured.png)
+
+__Note:__ The Structured UI allows you to enter context and examples when designing prompts. 
+
+2. Make sure there is no text in the __Context__ box. Then, in the __Test__ section, write the following prompt and submit it. Examine the results. 
+
+```
+Write a social media post about how great Sparky the Poodle is. 
+```
+
+3. Now, add the following to the __Context__ section, and test the same prompt. 
+
+```
+You work for an animal shelter and write social media posts about dogs and cats that need new homes. 
+```
+
+__Note:__ The context should have a big impact on the results and is a key way to get the model to output something relevant to your use case. 
+
+4. Let's add some more context. In addition to what is already there, add the following. Then, test the prompt again.  
+
+```
+Your web site is: www.petsarefriends.com.
+
+You phone number is: (123) 456-7890.
+```
+
+__Note:__ The results should be similar to what is shown below. This would be much better for the animal shelter than the results generated without the context. 
+
+Results:
+![Output](images/output1.png)
+
+Examples are a way of getting the model to write in your style. You are just giving sample prompts along with how you would write the output. 
+
+5. Let's add some examples. In the __Examples__ section, add the following to the __Input__ box.
+
+```
+Write me a post about Firecracker, a 6-year old Schnauzer whose owner passed away. 
+```
+
+6. Add the following to the __Output__ box. Then, test the results. 
+
+```
+Little Firecracker is a playful Schnauzer who needs her forever home. Great with kids and loves to play. Visit us at www.petsarefriends.com or call: (123) 456-7890 #pets_are_friends #dogs
+```
+The resuts should be similar to the following:
+
+![Output](images/output2.png)
+
+7. Add another example, this time for a cat. Then, experiment with different prompts to see the results. Something like the following:
+
+__Input:__
+```
+Write me a post about Tony the Persian cat who was a stray. 
+```
+__Output:__
+```
+Tony is a quiet Persian cat who loves being petted and is is good with kids. Visit www.petsarefriends.com for pictures. Call (123) 456-7890 to adopt. #pets_are_friends #cats
+```
+
+8. Save your prompt, name it something like `Pets Prompt`. 
+
+
+## Task 3: Exploring Gen AI Use Cases
 
 1. Summaries are a good use of Gen AI. Ideation is another. Ask the following.
 
@@ -161,7 +226,7 @@ My iPhone is really great. I'm thankful to Steve Jobs for helping to create it.
 6. Save your prompt again using the name `Steve Jobs Prompt 2`
 
 
-## Task 3: Creating a Code Prompt
+## Task 4: Creating a Code Prompt
 
 1. In the Tools pane on the left, click __Language__ from the __Generative AI Studio__ section as you did earlier. This time, click __Code Prompt__ on the Get Started page.
 
