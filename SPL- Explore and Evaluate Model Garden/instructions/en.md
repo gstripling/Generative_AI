@@ -1,4 +1,4 @@
-# GSP1166 Explore and Evaluate Models Using Model Garden
+# Explore and Evaluate Models Using Model Garden
 
 ## Overview
 
