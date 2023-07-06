@@ -101,6 +101,7 @@ Examine the response.
 Now, let's look at the parameters you can use to XXXXXXXX
 
 
+![Text Prompt](images/genai_studio_parameters.jpg) 
 
 
 
