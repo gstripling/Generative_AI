@@ -75,7 +75,7 @@ The home purchase price is 500,000
 What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
 ```
 
-4. Let's me more specific. Enter the following and click __Submit__. Examine the response.
+4. Let's me more specific. Enter the following and click __Submit__. Here, you are adding one addtional line of text "Show me homes for sale in zip code 33020".Examine the response.
 
 ```
 My credit score is 650
@@ -83,10 +83,29 @@ The home purchase price is 500,000
 What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
 Show me some homes for sale in zip code 33020
 ```
+5. Examine the response.
+   
+7. Enter the following and click __Submit__. Here, you are adding one line of text, "What cities are in area code 330320?" Examine the response.
 
-5. In the properties pane on the right, increase the __Token Limit__ to 1024, and then submit the request again. Examine the results. 
+```
+My credit score is 650
+The home purchase price is 500,000
+What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
+Show me some homes for sale in zip code 33020
+What cities are in area code 330320?
+```
+Examine the response. 
 
-6. Copy the entire response to the clipboard. Then, change the prompted to the following, and paste the previous response below it. 
+Now, let's look at the parameters you can use to XXXXXXXX
+
+
+
+
+
+
+8. In the properties pane on the right, increase the __Temperature__ to 1, and then submit the request again. Examine the response. 
+
+10. Copy the entire response to the clipboard. Then, change the prompted to the following, and paste the previous response below it. 
 
 ```
 Summarize the following in a few short bullets:
