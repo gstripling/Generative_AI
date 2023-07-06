@@ -57,22 +57,31 @@ In this lab, you learn how to:
 
 ![Enable all APIs](images/enable-apis.png)
 
-3. In the __Tools__ pane on the left, click __Language__ from the __Generative AI Studio__ section. Then, click __Text Prompt__ on the Get Started page. 
+3. In the __Tools__ pane on the left, click __Language__ from the __Generative AI Studio__ section. 
+
+Here is the Generative AI Studio interface. 
 
 ![Text Prompt](images/gen_ai_studio.png) 
+
+Then, click __Text Prompt__ on the Get Started page. 
 
 ![Text Prompt](images/text-prompt.png)
 
 3. In the Prompt box type the following. and click __Submit__. Read the response. 
 
 ```
-Tell me about Steve Jobs.
+My credit score is 650
+The home purchase price is 500,000
+What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
 ```
 
 4. Let's me more specific. Enter the following and click __Submit__. Examine the response.
 
 ```
-Write me a short, 1-page article about Steve Jobs.
+My credit score is 650
+The home purchase price is 500,000
+What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
+I am looking for a home with three bedrooms with a good walkability index.
 ```
 
 5. In the properties pane on the right, increase the __Token Limit__ to 1024, and then submit the request again. Examine the results. 
