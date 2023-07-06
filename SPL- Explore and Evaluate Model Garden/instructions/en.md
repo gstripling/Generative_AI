@@ -69,7 +69,7 @@ Text Prompt Window
 
 ![Text Prompt](images/gen_ai_studio.png) 
 
-3. In the Prompt box type the following. and click __Submit__. Read the response. 
+4. In the Prompt box type the following. and click __Submit__. Read the response. 
 
 ```
 My credit score is 650
@@ -77,7 +77,7 @@ The home purchase price is 500,000
 What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
 ```
 
-4. Let's me more specific. Enter the following and click __Submit__. Here, you are adding one addtional line of text "Show me homes for sale in zip code 33020".Examine the response.
+5. Let's me more specific. Enter the following and click __Submit__. Here, you are adding one addtional line of text "Show me homes for sale in zip code 33020". Examine the response.
 
 ```
 My credit score is 650
@@ -85,9 +85,8 @@ The home purchase price is 500,000
 What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
 Show me some homes for sale in zip code 33020
 ```
-5. Examine the response.
    
-7. Enter the following and click __Submit__. Here, you are adding one line of text, "What cities are in area code 330320?" Examine the response.
+6. Enter the following and click __Submit__. Here, you are adding one line of text, "What cities are in area code 330320?" Examine the response.
 
 ```
 My credit score is 650
@@ -112,11 +111,17 @@ The respose should be similar to what is shown below.
 
 ![Response](images/housing_freeform.png)
 
-7. The results are returned as Markdown. Click the __Markdown__ toggle to format the results. 
+8. The results are returned as Markdown. Click the __Markdown__ toggle to format the results. 
 
-8. Click the __Save__ button in the Gen AI Studio toolbar. Name the prompt anything you like. Something like `Real Estate Prompt`  would be good. Once saved, prompts will be available be available in the __My Prompts__ tab of the Language page. 
+9. Click the __View Code__ button in the Gen AI Studio toolbar. Use this script to request a model response in your application.
+
+![Response](images/ house_viewcode.PNG) 
+
+10. Click the __Save__ button in the Gen AI Studio toolbar. Name the prompt anything you like. Something like `Real Estate Prompt`  would be good. Once saved, prompts will be available be available in the __My Prompts__ tab of the Language page.
 
 ![My Prompts](images/my-prompts.png)
+
+#TESTERS STOP HERE
 
 
 ## Task 2: Exploring Gen AI Use Cases
