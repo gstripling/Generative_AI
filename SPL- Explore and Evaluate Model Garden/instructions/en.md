@@ -19,10 +19,6 @@ Model Garden provides a single place to search, discover, and interact with a wi
 
 One of the availble models through Model Garden is the Natural Language API. The Cloud Natural Language API lets you extract entities from text, perform sentiment and syntactic analysis, and classify text into categories. In this lab, you explore Model Garden and how to use Generative AI studio to create and experiment with prompts for your use case. 
 
-## Generative AI Studio
-Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text, chats, and code generation simple and intuative. 
-
-
 ## Objectives
 
 In this lab, you learn how to:
@@ -73,6 +69,8 @@ Here are examples of Model Cards. Pick a Model Card from each category and explo
 
 
 
+## Generative AI Studio
+Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text, chats, and code generation simple and intuative. 
 
 ## Task 2: Create text prompts for your Generative AI lab use case
 
