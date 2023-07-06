@@ -98,15 +98,19 @@ What cities are in area code 330320?
 ```
 Examine the response. 
 
-Now, let's look at the parameters you can use to XXXXXXXX
+7. Enter the following and click __Submit__. Here, you are modifying the text - adding a bit context. "Input" for the first line and "Output" for the last line.  Examine the response.
 
+```
+input: My credit score is 650
+The home purchase price is 500,000
+What is my estimated monthly mortgage payment on a 30 year loan at today's current interest rates?
+Show me some homes for sale in zip code 33020
+What cities are in area code 330320?
+output:
+```
 
-![Text Prompt](images/genai_studio_parameters.jpg) 
-
-
-
-
-8. In the properties pane on the right, increase the __Temperature__ to 1, and then submit the request again. Examine the response. 
+12.
+13. the prompted to the following, and paste the previous response below it. 
 
 10. Copy the entire response to the clipboard. Then, change the prompted to the following, and paste the previous response below it. 
 
