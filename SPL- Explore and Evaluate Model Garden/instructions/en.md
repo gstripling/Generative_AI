@@ -122,7 +122,7 @@ Summarize the following in a few short bullets:
 ```
 The respose should be similar to what is shown below. 
 
-![Response](images/response1.png)
+![Response](images/housing_freeform.png)
 
 7. The results are returned as Markdown. Click the __Markdown__ toggle to format the results. 
 
