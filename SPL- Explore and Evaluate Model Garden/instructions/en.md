@@ -59,7 +59,7 @@ In this lab, you learn how to:
 
 3. In the __Tools__ pane on the left, click __Language__ from the __Generative AI Studio__ section. Then, click __Text Prompt__ on the Get Started page. 
 
-![Text Prompt](images/gen_ai_studio_UI.png) 
+![Text Prompt](images/gen_ai_studio.png) 
 
 ![Text Prompt](images/text-prompt.png)
 
