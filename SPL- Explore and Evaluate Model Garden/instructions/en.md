@@ -119,7 +119,7 @@ The respose should be similar to what is shown below.
 
 9. Click the __View Code__ button in the Gen AI Studio toolbar. Use this script to request a model response in your application.
 
-![Response](images/ house_viewcode.PNG) 
+![Response](images/house_viewcode.PNG) 
 
 10. Click the __Save__ button in the Gen AI Studio toolbar. Name the prompt anything you like. Something like `Real Estate Prompt`  would be good. Once saved, prompts will be available be available in the __My Prompts__ tab of the Language page.
 
@@ -139,10 +139,10 @@ Write Python code to show the calculation of mortgage rate?
 
 Click the __View Code__ button in the Gen AI Studio toolbar. Use this script to request a model response in your application.
 
-![Response](images/ house_viewcode.PNG) 
-3. Save your prompt, name it something like `My Code Prompt`.
+![Response](images/mortgage_code_response.png) 
 
-4. 
+
+3. Save your prompt, name it something like `My Code Prompt`.
 
 
 ## Task 4: Creating a Code Chat
