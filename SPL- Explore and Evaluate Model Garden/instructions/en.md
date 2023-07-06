@@ -52,6 +52,7 @@ In this lab, you learn how to:
 To view the list of available Vertex AI and open source foundation, tunable, and task-specific models, go to Model Garden.
 
 1. In the __Tools__ pane on the left, click __Model Garden__.
+   
    ---
 | Category | Description | 
 |---|---|
