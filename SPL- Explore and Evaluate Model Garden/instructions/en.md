@@ -26,6 +26,7 @@ In this lab, you learn how to:
 * Incorporate Model Garden in your machine learning workflow
 * Navigate the Gen AI Studio user interface
 * Create text prompts for the Generative AI lab use case
+* Write Python code to show the calculation of mortgage rate
 * Perform entity analysis
 * Fine-tune models to meet your specific needs
   
