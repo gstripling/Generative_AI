@@ -60,7 +60,7 @@ To view the list of available Vertex AI and open source foundation, tunable, and
 
 Here are examples of Model Cards. Pick a Model Card from each category and explore it. For example, you could explore the XXX foundation model, the XXX fine-tunable model, or he task-specific model and think about possible use cases for your Generatvie AI projects.
 
-![Text Prompt](images/foundation_model.png)
+Placeholder for foundation model card
 ![Text Prompt](images/fine-tunable_model.png)
 ![Text Prompt](images/task-specific_model.png)
 
