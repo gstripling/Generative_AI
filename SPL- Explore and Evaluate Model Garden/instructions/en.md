@@ -41,19 +41,36 @@ In this lab, you learn how to:
 
 ![[/fragments/cloudshell]]
 
+1. In the Google Cloud console, from the Navigation menu (![Navigation Menu Icon](images/nav-menu.png)), select __Vertex AI__ from the __Artificial Intelligence__ section. 
+
+2. From the Vertex AI dashboard, click the __Enable all Recommended APIs__ button. 
+
+![Enable all APIs](images/enable-apis.png)
+
 ## Task 1: Explore Model Garden
+
+To view the list of available Vertex AI and open source foundation, tunable, and task-specific models, go to Model Garden.
+
+1. In the __Tools__ pane on the left, click __Model Garden__.
+   ---
+| Category | Description | 
+|---|---|
+| Foundation models | Pretrained multitask large models that can be tuned or customized for specific tasks using Generative AI Studio, Vertex AI API, and the Vertex AI SDK for Python. |
+| Fine-tunable models | Models that you can fine-tune using a custom notebook or pipeline. |
+|Task-specific solutions | Most of these prebuilt models are ready to use. Many can be customized using your own data. |
+---
+The model categories available in Model Garden are:
+
+
+   
+3. 
+
 
 
 
 ## Task 2: Create text prompts for your Generative AI lab use case
 
 Prompts concepts here.
-
-1. In the Google Cloud console, from the Navigation menu (![Navigation Menu Icon](images/nav-menu.png)), select __Vertex AI__ from the __Artificial Intelligence__ section. 
-
-2. From the Vertex AI dashboard, click the __Enable all Recommended APIs__ button. 
-
-![Enable all APIs](images/enable-apis.png)
 
 3. In the __Tools__ pane on the left, click __Language__ from the __Generative AI Studio__ section. 
 
