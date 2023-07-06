@@ -12,22 +12,22 @@ Vertex AI is Google Cloud's unified service for managing machine learning and ge
 Vertex AI Model Garden is a collection of pre-trained machine learning models and tools that are designed to simplify the process of building and deploying machine learning models. It is a part of Vertex AI, Google Cloud's unified artificial intelligence platform.
 Vertex AI Model Garden is a valuable resource for machine learning developers who are looking for pre-trained models and tools to accelerate their projects. It is a convenient and easy-to-use platform that can help you get started with machine learning quickly and easily.
 
-Model Garden provides a single place to search, discover, and interact with a wide variety of models from Google and Google partners. These models cover a wide range of use cases, including computer vision, natural language processing, and tabular data analysis.
+## Model Garden
 
-Model Garden also provides a variety of tools to help you use these models, including:
-
-Model cards: Model cards provide detailed information about each model, including its accuracy, performance, and training data.
-Prompt design: Prompt design allows you to interact with a model via a simple UI and tune the model with your own data.
-Deployment: Model Garden can help you deploy your models to a production environment.
-
-
-Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text and code generation simple and intuative. 
-
+Model Garden provides a single place to search, discover, and interact with a wide variety of models from Google and Google partners. These models cover a wide range of use cases, including computer vision, natural language processing, and tabular data analysis. Model Garden also provides a variety of tools to help you use these models, including:
+**Model cards**: Model cards provide detailed information about each model, including its accuracy, performance, and training data.
+**Prompt design**: Prompt design allows you to interact with a model via a simple UI and tune the model with your own data.
+**Deployment**: Model Garden can help you deploy your models to a production environment.
 
 Model Garden is a platform that helps you discover, test, customize, and deploy Vertex AI and select OSS models and assets. To explore the AI models and APIs that are available on Vertex AI, go to Model Garden in the Google Cloud console. One of the availble models through Model Garden is the Natural Language API. The Cloud Natural Language API lets you extract entities from text, perform sentiment and syntactic analysis, and classify text into categories.
 
 However, in practice, these pre-built models may not be sufficient for all situations. AutoML uses machine learning to analyze the structure and meaning of text data. You can use AutoML to train an ML model to classify text data into categories which the Natural Language API was not trained to predict.
 In this lab, you learn how to use Generative AI studio to create and experiment with prompts for various generative AI uses cases. You will explore the Gen AI Studio UI, and you will create text and code prompts and chats. 
+
+## Generative AI Studio
+Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for text and code generation simple and intuative. 
+
+
 
 ## Objectives
 
