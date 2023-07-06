@@ -108,25 +108,13 @@ Show me some homes for sale in zip code 33020
 What cities are in area code 330320?
 output:
 ```
-
-12.
-13. the prompted to the following, and paste the previous response below it. 
-
-10. Copy the entire response to the clipboard. Then, change the prompted to the following, and paste the previous response below it. 
-
-```
-Summarize the following in a few short bullets:
-
-[PASTE PREVIOUS RESPONSE HERE]
-
-```
 The respose should be similar to what is shown below. 
 
 ![Response](images/housing_freeform.png)
 
 7. The results are returned as Markdown. Click the __Markdown__ toggle to format the results. 
 
-8. Click the __Save__ button in the Gen AI Studio toolbar. Name the prompt anything you like. Something like `Steve Jobs Prompt`  would be good. Once saved, prompts will be available be available in the __My Prompts__ tab of the Language page. 
+8. Click the __Save__ button in the Gen AI Studio toolbar. Name the prompt anything you like. Something like `Real Estate Prompt`  would be good. Once saved, prompts will be available be available in the __My Prompts__ tab of the Language page. 
 
 ![My Prompts](images/my-prompts.png)
 
