@@ -2,15 +2,14 @@
 
 ## Overview
 
-You work for a real estate firm as a marketing analyst. Your company is intereseted in using Large Language Models to better help customers who access their website seeking home mortgage calculations based upon current interest rates and for brief text descriptions of homes they are interested in given their features. You have been tasked to create prompts that can respond to mortgage calculations and to summarize text from very long home descriptions from your real estate site. Home descriptions are stored in a file in a Google Cloud storage bucket. 
+You work for a real estate firm as a marketing analyst. Your company is intereseted in using Large Language Models to better help both home buyers and sellers who access their website seeking home mortgage information - (1) Mortgage calculations based upon current interest rates and (2) Brief text descriptions of homes they are interested in given their features. The realtors on your team are also interested in this information to better help them with pricing discussions with both buyers and sellers. You have been tasked to create prompts that can respond to mortgage calculations and to summarize text from very long home descriptions from your real estate site. Home descriptions are stored in a file in a Google Cloud storage bucket. 
 
-You are not certain what tools exist on Google Cloud, but you know that you can explore Model Garden to explore available models for your use. Due to the time you have to implement a solution, you want to look for pre-built models that can be leveraged as much as possible. Additionally, the request includes a requirement that you leverage the API directly rather than through a client library.
+You are not certain what tools exist on Google Cloud, but you know that you can explore Model Garden to explore available models for your use. Due to the time you have to implement a solution, you want to look for pre-built models that can be leveraged as much as possible. 
 
 ## Vertex AI
 
-Vertex AI is Google Cloud's unified service for managing machine learning and generative AI projects. 
-Vertex AI Model Garden is a collection of pre-trained machine learning models and tools that are designed to simplify the process of building and deploying machine learning models. It is a part of Vertex AI, Google Cloud's unified artificial intelligence platform.
-Vertex AI Model Garden is a valuable resource for machine learning developers who are looking for pre-trained models and tools to accelerate their projects. It is a convenient and easy-to-use platform that can help you get started with machine learning quickly and easily.
+Vertex AI is Google Cloud's unified artificial intelligence platform for managing machine learning and generative AI projects. 
+Vertex AI Model Garden is a collection of pre-trained machine learning models and tools that are designed to simplify the process of building and deploying machine learning models. Model Garden is a convenient and easy-to-use platform that can help you get started with machine learning quickly and easily.
 
 ## Model Garden
 
