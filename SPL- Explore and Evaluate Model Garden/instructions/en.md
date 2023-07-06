@@ -32,7 +32,6 @@ Gen AI Studio is a feature of Vertex AI. It makes writing and tuning prompts for
 ## Objectives
 
 In this lab, you learn how to:
-* Understand how Vertex AI as an AI/ML Platform
 * Explore Vertex AI Model Garden to find the appropriate model for your use case.
 * Incorporate Model Garden in your machine learning workflow
 * Navigate the Gen AI Studio user interface
@@ -48,8 +47,13 @@ In this lab, you learn how to:
 
 ![[/fragments/cloudshell]]
 
+## Task 1: Explore Model Garden
 
-## Task 1: Learning the Gen AI Studio user interface
+
+
+## Task 2: Create text prompts for your Generative AI lab use case
+
+Prompts concepts here.
 
 1. In the Google Cloud console, from the Navigation menu (![Navigation Menu Icon](images/nav-menu.png)), select __Vertex AI__ from the __Artificial Intelligence__ section. 
 
@@ -121,9 +125,98 @@ The respose should be similar to what is shown below.
 
 ![My Prompts](images/my-prompts.png)
 
+## Task 3: Creating a Code Prompt
+
+1. In the Tools pane on the left, click __Language__ from the __Generative AI Studio__ section as you did earlier. This time, click __Code Prompt__ on the Get Started page.
+
+![Code Prompt](images/code-prompt.png)
+
+2. Ask the model to generate some code for you. Examine the results. 
+
+```
+Write Python code to show the calculation of mortgage rate?
+```
+
+Click the __View Code__ button in the Gen AI Studio toolbar. Use this script to request a model response in your application.
+
+![Response](images/ house_viewcode.PNG) 
+3. Save your prompt, name it something like `My Code Prompt`.
+
+4. 
+
+
+## Task 4: Creating a Code Chat
+
+1. In the Tools pane on the left, click __Language__ from the __Generative AI Studio__ section as you did earlier. This time, click __Code Chat__ on the Get Started page.
+
+![Code Chat](images/code-chat.png)
+
+2. In the prompt text box enter the following and submit it. 
+
+```
+Generate the code to run a SQL query against a Spanner database. The Spanner instance is called spanner-instance and the database is named orders-db.
+```
+
+3. The results should be similar to what is shown below. 
+
+![Code Response](images/code-response1.png)
+
+4. Ask for a different language. 
+
+```
+Can you give me that code in Go?
+```
+
+5. Save your prompt as you did before, name this one something like `My Code Chat`.
+
+
+
+
 #TESTERS STOP HERE
 
-## Task 2: Structure Prompts in Gen AI Studio
+## Task 3: Perform entity analysis
+
+## Fine-tune models to meet your specific needs
+
+Prompt design strategies, such as few shot prompting, may not always suffice for customizing model behavior. Use model tuning to improve a model's performance on specific tasks or help the model adhere to specific output requirements when instructions aren't sufficient. This page shows you how to tune a foundation model in Vertex AI and gives guidance on how to achieve the best results.
+
+### How model tuning works
+The goal of model tuning is to further improve the performance of the model for your specific task. Model tuning works by providing the model with a training dataset containing many examples of the task. For niche tasks, you can get significant improvements in model performance by tuning the model on a modest number of examples.
+
+Your training data should be structured as a supervised training dataset in a text to text format. Each record or row in the data will contain the input text, in other words the prompt, followed by the expected output of the model. The goal is to teach the model to mimic the desired behavior or task, by giving it many examples illustrating that behavior or task.
+
+When you run a tuning job, the model learns additional parameters that help it encode the necessary information to perform the desired task or learn the desired behavior. These parameters can then be used at inference time. The output of the tuning job is a new model, which is effectively a combination of the newly learned parameters, and the original model.
+
+Scenarios to use model tuning
+Tuning is required when you want the model to learn something niche or specific that deviates from general language patterns. For example, you can use model tuning to teach the model the following:
+
+Specific structures or formats for generating output.
+Specific behaviors such as when to provide a terse or verbose output.
+Specific customized outputs for specific types of inputs.
+
+### Workflow for model tuning
+The model tuning workflow on Vertex AI is as follows:
+
+Prepare your model tuning dataset.
+Upload the model tuning dataset to a Cloud Storage bucket.
+Create a model tuning job.
+After model tuning completes, your tuned model is automatically deployed to a Vertex AI endpoint of the same name. You can also select it in Generative AI Studio as the model to use when creating a new prompt.
+
+Prepare your model tuning dataset
+The dataset used to tune a foundation model includes examples that align with the task that you want the model to perform. Your dataset must include a minimum of 10 examples, but we recommend at least 100 examples for good results. Generally speaking, the more examples you give, the better the results.
+
+Dataset format
+Your model tuning dataset must be in JSON Lines (JSONL) format where each line contains a single tuning example. Each example is composed of an input_text field that contains the prompt to the model and an output_text field that contains an example response that the tuned model is expected to produce.
+
+Example
+
+{"input_text": "question: How many people live in Beijing? context: With over 21 million residents, Beijing is the world's most populous national capital city and is China's second largest city after Shanghai. It is located in Northern China, and is governed as a municipality under the direct administration of the State Council with 16 urban, suburban, and rural districts.[14] Beijing is mostly surrounded by Hebei Province with the exception of neighboring Tianjin to the southeast; together, the three divisions form the Jingjinji megalopolis and the national capital region of China.", "output_text": "over 21 million people"}
+{"input_text": "question: How many parishes are there in Louisiana? context: The U.S. state of Louisiana is divided into 64 parishes (French: paroisses) in the same manner that 48 other states of the United States are divided into counties, and Alaska is divided into boroughs.", "output_text": "64"}
+
+
+
+
+
 
 1. In Gen AI Studio, click the __Structured__ button in the toolbar. 
 
