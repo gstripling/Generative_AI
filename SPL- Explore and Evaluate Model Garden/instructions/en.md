@@ -58,7 +58,9 @@ To view the list of available Vertex AI and open source foundation, tunable, and
 |Task-specific solutions | Most of these prebuilt models are ready to use. Many can be customized using your own data. |
 ---
 
-Here are examples of Model Cards. Pick a Model Card from each category and explore it. For example, you could explore the Label Detector Zero-shot foundation model, which classifies images based on labels, represented as a list of text prompt strings, which are provided by the user, and calculates the confidence score of each labelâs presence in the image. You could use this model to input images of your housing inventory and classify a house based upon whether or not it was labeled as "close to shopping" or "not close to shopping". Or, you could explore the Task Sentiment analysis model, wihch inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. A use case could be the ability to identify customer complaints and provide timely support.
+Here are examples of Model Cards. Pick a Model Card from each category and explore it. For example, you could explore the Label Detector Zero-shot foundation model, which classifies images based on labels, represented as a list of text prompt strings, which are provided by the user, and calculates the confidence score of each labelâs presence in the image. You could use this model to input images of your housing inventory and classify a house based upon whether or not it was labeled as "close to shopping" or "not close to shopping". 
+
+Or, you could explore the Task Sentiment analysis model, wihch inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. A use case could be the ability to identify customer complaints and provide timely support.
 
 Placeholder for foundation model card
 ![Text Prompt](images/fine-tunable_model.png)
