@@ -52,7 +52,8 @@ In this lab, you learn how to:
 To view the list of available Vertex AI and open source foundation, tunable, and task-specific models, go to Model Garden.
 
 1. In the __Tools__ pane on the left, click __Model Garden__.
-   
+
+#### The model categories available in Model Garden are:
    ---
 | Category | Description | 
 |---|---|
@@ -60,10 +61,14 @@ To view the list of available Vertex AI and open source foundation, tunable, and
 | Fine-tunable models | Models that you can fine-tune using a custom notebook or pipeline. |
 |Task-specific solutions | Most of these prebuilt models are ready to use. Many can be customized using your own data. |
 ---
-The model categories available in Model Garden are:
 
+Here are examples of Model Cards. Pick a Model Card from each category and explore it. For example, you could explore the XXX foundation model, the XXX fine-tunable model, or he task-specific model and think about possible use cases for your Generatvie AI projects.
 
-   
+![Text Prompt](images/foundation_model.png)
+![Text Prompt](images/fine-tunable_model.png)
+![Text Prompt](images/task-specific_model.png)
+
+  
 3. 
 
 
