@@ -232,7 +232,7 @@ Vertex AI Model Garden documentation: https://cloud.google.com/vertex-ai/docs/st
 Vertex AI Model Garden blog post: https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-model-garden-and-generative-ai-studio
 
 
-### **Congratulations!** You have used Generative AI studio to create and experiment with prompts for various generative AI uses cases. You also explored the Gen AI Studio UI, and created text and code prompts and chats. 
+### **Congratulations!** You have used Model Garden and Generative AI studio to create and experiment with prompts for various generative AI uses cases. You also explored the Gen AI Studio UI, and created text and code prompts and chats. 
 
 
 ![[/fragments/endqwiklab]]
