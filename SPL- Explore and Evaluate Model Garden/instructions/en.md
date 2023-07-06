@@ -188,96 +188,28 @@ Example
 {"input_text": "question: How many parishes are there in Louisiana? context: The U.S. state of Louisiana is divided into 64 parishes (French: paroisses) in the same manner that 48 other states of the United States are divided into counties, and Alaska is divided into boroughs.", "output_text": "64"}
 
 
-
-
-
-
-1. In Gen AI Studio, click the __Structured__ button in the toolbar. 
-
-![Structured](images/structured.png)
-
-__Note:__ The Structured UI allows you to enter context and examples when designing prompts. 
-
-2. Make sure there is no text in the __Context__ box. Then, in the __Test__ section, write the following prompt and submit it. Examine the results. 
-
-```
-Write a social media post about how great Sparky the Poodle is. 
-```
-
-3. Now, add the following to the __Context__ section, and test the same prompt. 
-
-```
-You work for an animal shelter and write social media posts about dogs and cats that need new homes. 
-```
-
-__Note:__ The context should have a big impact on the results and is a key way to get the model to output something relevant to your use case. 
-
-4. Let's add some more context. In addition to what is already there, add the following. Then, test the prompt again.  
-
-```
-Your web site is: www.petsarefriends.com.
-
-You phone number is: (123) 456-7890.
-```
-
-__Note:__ The results should be similar to what is shown below. This would be much better for the animal shelter than the results generated without the context. 
-
-Results:
-![Output](images/output1.png)
-
-Examples are a way of getting the model to write in your style. You are just giving sample prompts along with how you would write the output. 
-
-5. Let's add some examples. In the __Examples__ section, add the following to the __Input__ box.
-
-```
-Write me a post about Firecracker, a 6-year old Schnauzer whose owner passed away. 
-```
-
-6. Add the following to the __Output__ box. Then, test the results. 
-
-```
-Little Firecracker is a playful Schnauzer who needs her forever home. Great with kids and loves to play. Visit us at www.petsarefriends.com or call: (123) 456-7890 #pets_are_friends #dogs
-```
-The resuts should be similar to the following:
-
-![Output](images/output2.png)
-
-7. Add another example, this time for a cat. Then, experiment with different prompts to see the results. Something like the following:
-
-__Input:__
-```
-Write me a post about Tony the Persian cat who was a stray. 
-```
-__Output:__
-```
-Tony is a quiet Persian cat who loves being petted and is is good with kids. Visit www.petsarefriends.com for pictures. Call (123) 456-7890 to adopt. #pets_are_friends #cats
-```
-
-8. Save your prompt, name it something like `Pets Prompt`. 
-
-
-## Task 3: Exploring Gen AI Use Cases
+## Task X: Exploring Gen AI Use Cases - Model Garden Summarization and Sentiment Analysis
 
 1. Summaries are a good use of Gen AI. Ideation is another. Ask the following.
 
 ```
-What are some clever titles for a blog post about Steve Jobs?
+Placeholder
 ```
 
-![Response](images/response2.png)
+Response placeholder
 
 2. Content creation is another good use of Gen AI. Ask the following. 
 
 ```
-Write me a tweet to celebrate Steve Jobs' birthday.
+Placeholder
 ```
 
-![Response](images/response3.png)
+Response placeholder
 
 3. Let's ask the model to be more creative. Enter the following and see what you get. 
 
 ```
-Write me a poem about the life of Steve Jobs.
+Placeholder
 ```
 
 4. Classification is another Gen AI use case. Enter the following and see the results. 
@@ -285,7 +217,7 @@ Write me a poem about the life of Steve Jobs.
 ```
 Is the following comment positive or negative?
 
-My iPhone is really great. I'm thankful to Steve Jobs for helping to create it. 
+This home has termites and mold.
 ```
 
 5. Change the comment to something negative and see if it returns the correct answer. 
@@ -293,52 +225,12 @@ My iPhone is really great. I'm thankful to Steve Jobs for helping to create it.
 6. Save your prompt again using the name `Steve Jobs Prompt 2`
 
 
-## Task 4: Creating a Code Prompt
-
-1. In the Tools pane on the left, click __Language__ from the __Generative AI Studio__ section as you did earlier. This time, click __Code Prompt__ on the Get Started page.
-
-![Code Prompt](images/code-prompt.png)
-
-2. Ask the model to generate some code for you. Examine the results. 
-
-```
-What is the Terraform code for creating a Google Cloud VPC with subnets in us-central1 and us-east4?
-```
-3. Save your prompt, name it something like `My Code Prompt`.
-
-
-## Task 4: Creating a Code Chat
-
-1. In the Tools pane on the left, click __Language__ from the __Generative AI Studio__ section as you did earlier. This time, click __Code Chat__ on the Get Started page.
-
-![Code Chat](images/code-chat.png)
-
-2. In the prompt text box enter the following and submit it. 
-
-```
-Generate the code to run a SQL query against a Spanner database. The Spanner instance is called spanner-instance and the database is named orders-db.
-```
-
-3. The results should be similar to what is shown below. 
-
-![Code Response](images/code-response1.png)
-
-4. Ask for a different language. 
-
-```
-Can you give me that code in Go?
-```
-
-5. Save your prompt as you did before, name this one something like `My Code Chat`.
 
 ## Bonus: Here are some links to Vertex AI Model Garden
 Vertex AI Model Garden website: https://cloud.google.com/model-garden
 Vertex AI Model Garden documentation: https://cloud.google.com/vertex-ai/docs/start/explore-models
 Vertex AI Model Garden blog post: https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-model-garden-and-generative-ai-studio
 
-## Bonus: Exploring Gen AI Studio
-
-1. Create some more prompts. Experiment with different use cases and questions. 
 
 ### **Congratulations!** You have used Generative AI studio to create and experiment with prompts for various generative AI uses cases. You also explored the Gen AI Studio UI, and created text and code prompts and chats. 
 
