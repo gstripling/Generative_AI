@@ -175,7 +175,7 @@ List the top selling homes in 33020 in 2023.
 ```
 Your respnse should look similar to the below image:
 
-![Response](images/top_selling_home) 
+![Response](images/top_selling_home.png) 
 
 
 
