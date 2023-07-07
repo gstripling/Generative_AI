@@ -213,9 +213,6 @@ __Note:__ It will take a couple minutes for the Workbench instance to be created
 
 ![Jupyter Results](images/top_sellers_jupyter_response.png)
 
-9. Try changing the prompt and the parameters and test the code again. For example, this time add the line "and their sales price" at the end of the sentence. The results should be similar to what is shown below.
-
-![Response](images/top_selling_jupyter_sales_price.png) 
 
 ## Task 6: Running the Python Code
 
