@@ -178,15 +178,9 @@ Your respnse should look similar to the below image:
 ![Response](images/top_selling_home.png) 
 
 
-
-
-4. In the Gen AI Studio toolbar, click on the __View Code__ button. 
+2. In the Gen AI Studio toolbar, click on the __View Code__ button. Notice, a panel appears that allows you to select code in Python, Python Colab (_Jupyter_), and cURL. 
 
 ![View Code](images/viewcode_topselling.png)
-
-5. Notice, a panel appears that allows you to select code in Python, Python Colab (_Jupyter_), and cURL. 
-
-![View Code](images/view-code2.png)
 
 
 ## Task 2. Using the PaLM REST API 
