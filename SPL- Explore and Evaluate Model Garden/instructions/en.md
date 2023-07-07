@@ -166,7 +166,7 @@ Your response should resemble the following:
 
 In this section, you learn to use the PaLM API from code. You will do this 3 ways: using cURL to make a REST request from the command line, using a Jupyter Notebook, and using a simple Python program. 
 
-## Task 1. Create the Prompt
+## Task 4. Create the Prompt
 
 1. In the Prompt box type the following. and click __Submit__. Read the response. 
 
@@ -183,7 +183,7 @@ Your respnse should look similar to the below image:
 ![View Code](images/viewcode_topselling.png)
 
 
-## Task 2. Running the Code in a Jupyter Notebook
+## Task 5. Running the Code in a Jupyter Notebook
 
 1. In the Vertex AI __Tools__ pane on the left, click __Workbench__.
 
@@ -217,7 +217,7 @@ __Note:__ It will take a couple minutes for the Workbench instance to be created
 
 ![Response](images/top_selling_jupyter_sales_price.png) 
 
-## Task 4: Running the Python Code
+## Task 6: Running the Python Code
 
 1. Return the the Google Console and start Cloud Shell. 
 
