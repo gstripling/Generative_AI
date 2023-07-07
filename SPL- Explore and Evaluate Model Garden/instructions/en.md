@@ -182,7 +182,7 @@ Your respnse should look similar to the below image:
 
 4. In the Gen AI Studio toolbar, click on the __View Code__ button. 
 
-![View Code](images/view-code.png)
+![View Code](images/viewcode_topselling)
 
 5. Notice, a panel appears that allows you to select code in Python, Python Colab (_Jupyter_), and cURL. 
 
