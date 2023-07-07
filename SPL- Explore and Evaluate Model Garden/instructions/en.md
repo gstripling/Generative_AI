@@ -25,9 +25,9 @@ In this lab, you learn how to:
 * Explore Vertex AI Model Garden to find the appropriate model for your use case.
 * Incorporate Model Garden in your machine learning workflow
 * Navigate the Gen AI Studio user interface
-* Create text prompts for the Generative AI lab use case
-* Write Python code to show the calculation of mortgage rate
-* Use the PaLM API and fine-tune models to meet your specific needs
+* Create text, chat, and code generation prompts for the Generative AI lab use case
+* Run Python code in a Jupyter Notebook that uses the PaLM API
+
   
 ## Setup and Requirements
 
@@ -166,32 +166,9 @@ Your response should resemble the following:
 
 ## Overview
 
-In this lab, you learn to use the PaLM API from code. You will do this 3 ways: using cURL to make a REST request from the command line, using a Jupyter Notebook, and using a simple Python program. 
+In this section, you learn to use the PaLM API from code. You will do this 3 ways: using cURL to make a REST request from the command line, using a Jupyter Notebook, and using a simple Python program. 
 
-## Objectives
-
-In this lab, you learn how to:
-* Use cURL to invoke the PaLM REST API
-* Run Python code in a Jupyter Notebook that uses the PaLM API
-* Run a simple Python program that uses the PaLM API
-
-
-## Setup and Requirements
-
-
-![[/fragments/startqwiklab]]
-
-
-![[/fragments/cloudshell]]
-
-
-## Task 1. Creating a Prompt
-
-1. In the Google Cloud console, from the Navigation menu (![Navigation Menu Icon](images/nav-menu.png)), select __Vertex AI__ from the __Artificial Intelligence__ section. 
-
-2. From the Vertex AI dashboard, click the __Enable all Recommended APIs__ button. 
-
-![Enable all APIs](images/enable-apis.png)
+## Task 1. Create the Prompt
 
 3. In the __Tools__ pane on the left, click __Language__ from the __Generative AI Studio__ section. Then, click __Text Prompt__ on the Get Started page. 
 
