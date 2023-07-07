@@ -209,8 +209,6 @@ __Note:__ It will take a couple minutes for the Workbench instance to be created
 
 7. Click on the __View Code__ button, and then select the __Python Colab__ tab. Copy the code from step 2. Paste this code into the second cell in your Jupyter Notebook. Before you run it though, comment out or remove the first 2 lines. _These lines would be needed in Google Colab, but are not needed in Workbench. See the screenshot below._
 
-![Jupyter](images/jupyter2.png)
-
 8. Click the __Run__ button to run the code in that cell. The results should be similar to what is shown below. 
 
 ![Jupyter Results](images/top_sellers_jupyter_response.png)
