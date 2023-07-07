@@ -183,26 +183,7 @@ Your respnse should look similar to the below image:
 ![View Code](images/viewcode_topselling.png)
 
 
-## Task 2. Using the PaLM REST API 
-
-1. Click the __CURL__ button and copy the code in step 3 to the clipboard. _You will run the code in Cloud Shell, so the first 2 steps will not be required._
-
-![Curl Code](images/curl-code.png)
-
-2. On the Google Cloud console title bar, click __Activate Cloud Shell__ (![cloud shell icon](images/cloud_shell_icon.png)). If prompted, click __Continue__.
-
-3. Paste the code in the Cloud Shell terminal and hit __Enter__ to run it. If you're prompted to authorize the request, then do so. The results should be as shown below.
-
-![cURL Results](images/curl-results.png)
-
-4. In a text editor of your choice, make change to the prompt in the code and test it agina using cURL. 
-
-5. In Cloud Shell, type `exit` and hit the Enter key to close it. 
-
-6. In GenAI Studio, save your prompt with the name `Test Prompt`.
-
-
-## Task 3. Running the Code in a Jupyter Notebook
+## Task 2. Running the Code in a Jupyter Notebook
 
 1. In the Vertex AI __Tools__ pane on the left, click __Workbench__.
 
