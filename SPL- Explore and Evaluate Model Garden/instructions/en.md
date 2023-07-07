@@ -213,7 +213,7 @@ __Note:__ It will take a couple minutes for the Workbench instance to be created
 
 8. Click the __Run__ button to run the code in that cell. The results should be similar to what is shown below. 
 
-![Jupyter Results](images/jupyter-results.png)
+![Jupyter Results](images/top_sellers_jupyter_response.png)
 
 9. Try changing the prompt and the parameters and test the code again. 
 
