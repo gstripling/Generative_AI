@@ -164,21 +164,21 @@ Your response should resemble the following:
 
 # Getting Started with the PaLM API
 
-## Overview
-
 In this section, you learn to use the PaLM API from code. You will do this 3 ways: using cURL to make a REST request from the command line, using a Jupyter Notebook, and using a simple Python program. 
 
 ## Task 1. Create the Prompt
 
-3. In the __Tools__ pane on the left, click __Language__ from the __Generative AI Studio__ section. Then, click __Text Prompt__ on the Get Started page. 
-
-![Text Prompt](images/text-prompt.png)
-
-3. In the Prompt box type the following. and click __Submit__. Read the response. 
+1. In the Prompt box type the following. and click __Submit__. Read the response. 
 
 ```
-List some good action movies that the whole family can watch?
+List the top selling homes in 33020 in 2023.
 ```
+Your respnse should look similar to the below image:
+
+![Response](images/top_selling_home) 
+
+
+
 
 4. In the Gen AI Studio toolbar, click on the __View Code__ button. 
 
