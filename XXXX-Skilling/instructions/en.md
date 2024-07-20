@@ -49,7 +49,6 @@ Here’s why the above prompt for Cymbal Solar qualifies as a zero-shot prompt:
 |-------------------|---------------------------------------------------------------------------------------------------------------|
 | Clear Context     | The prompt specifies the company (Cymbal Solar) and its goal (upskilling the team on Generative AI).          |
 | Focused Question  | It asks a specific question about how Generative AI can benefit the company.                                  |
-| Expected Output   | The response should be detailed and structured, providing a comprehensive overview of the potential benefits.  |
 | Zero-shot Prompt  | It provides no examples or additional context, relying on the model's general knowledge to generate the response. |
 
 
@@ -73,7 +72,6 @@ Here’s why the above prompt for Cymbal Solar qualifies as a one-shot prompt:
 |-------------------|---------------------------------------------------------------------------------------------------------------|
 | Clear Context     | The prompt specifies the company (Cymbal Solar) and its goal (upskilling the team on Generative AI).          |
 | Focused Question  | It asks a specific question about how Generative AI can benefit the company.                                  |
-| Expected Output   | The response should be detailed and structured, providing a comprehensive overview of the potential benefits.  |
 | One-shot Prompt   | It expects one comprehensive response without providing examples, relying on the responder's knowledge and understanding. |
 
 <br>
@@ -100,7 +98,6 @@ Here’s why the above prompt for Cymbal Solar qualifies as a few-shot prompt:
 |-------------------|---------------------------------------------------------------------------------------------------------------|
 | Clear Context     | The prompt specifies the company (Cymbal Solar) and its goal (upskilling the team on Generative AI).          |
 | Focused Question  | It asks a specific question about how Generative AI can benefit the company.                                  |
-| Expected Output   | The response should be detailed and structured, providing a comprehensive overview of the potential benefits.  |
 | Few-shot Prompt   | It includes an example response about predictive maintenance, guiding the responder on how to approach the task.  |
 
 
@@ -120,7 +117,7 @@ Here’s why the above prompt for Cymbal Solar qualifies as a few-shot prompt:
  <br> 
  
 
-## Task #1. Crafting an Effective Prompt for Cymbal Solar
+## Task. Crafting an Effective Prompt for Cymbal Solar
 
 Objective:
 To create an effective prompt that guides the Generative AI in providing valuable insights and recommendations for Cymbal Solar.
@@ -161,30 +158,7 @@ Cymbal Solar wants to upskill its team on Generative AI. Here are a few ways Gen
 
 Now, provide additional examples of how Generative AI can benefit Cymbal Solar in improving operations, customer engagement, and overall efficiency.
 ```
-
-## Task #2. Write a Prompt to Create Levels of Technical Knowledge for Generative AI:
-
-Next, ask the model to create four levels of technical knowledge for Generative AI and put the results into a table. This will allow us to create categories we can use later. 
-
-### Prompt
-```
-Create four levels of technical knowledge for Generative AI and put the results into a table.
-
-```
-
-Revew the four levels. Export the results to a table. Note: Your output response may vary.
-
-
-| Level             | Description                                                                                                            |
-|-------------------|------------------------------------------------------------------------------------------------------------------------|
-| **Beginner**      | Basic understanding of Generative AI concepts, such as the ability to describe what Generative AI is and its general uses. No in-depth knowledge of algorithms or technical details. |
-| **Intermediate**  | Familiarity with core Generative AI techniques like GPT, BERT, and their applications. Understanding of basic concepts such as tokenization and training data, with some practical experience. |
-| **Advanced**      | In-depth knowledge of various Generative AI models and architectures, including their underlying algorithms. Ability to fine-tune models, perform hyperparameter tuning, and understand model performance metrics. |
-| **Expert**        | Expertise in designing, implementing, and optimizing advanced Generative AI systems. Deep understanding of cutting-edge research, model innovations, and the ability to contribute to the development of new Generative AI techniques. |
-
-
-<br> 
-<br> 
+<br>
 
 ## Congratulations!
 
