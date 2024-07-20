@@ -120,9 +120,49 @@ Here’s why the above prompt for Cymbal Solar qualifies as a few-shot prompt:
  <br> 
  
 
+## Task #1. Crafting an Effective Prompt for Cymbal Solar
+
+Objective:
+To create an effective prompt that guides the Generative AI in providing valuable insights and recommendations for Cymbal Solar.
+
+| Step                | Description                                                                                                                           |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Understand the Context** | Identify the key goals and needs of Cymbal Solar. The company wants to upskill its team on Generative AI and explore how it can benefit their operations. |
+| **Define the Specific Task** | Determine what you want the AI to provide. For Cymbal Solar, you might want insights on how Generative AI can be applied to their specific needs, such as improving operations, customer engagement, and efficiency. |
+| **Choose the Prompt Type** | Decide whether you need a zero-shot, one-shot, or few-shot prompt based on the complexity of the information you want and the examples you wish to provide. |
+| **Draft the Prompt** | Write a clear and concise prompt that specifies the context, the task, and the expected outcome. Ensure that the prompt is focused and provides enough detail for the AI to generate a relevant response. |
+| **Review and Refine** | Check the prompt for clarity and completeness. Make sure it aligns with the goal and provides sufficient information to elicit a detailed and useful response. |
+| **Example Prompts** | Provide example prompts for different types (zero-shot, one-shot, few-shot) to illustrate how the prompt might be constructed. |
 
 
-## Task. Write a Prompt to Create Levels of Technical Knowledge for Generative AI:
+
+Example Prompts:
+
+Zero-shot Prompt:
+
+```
+Cymbal Solar is a solar installation company looking to upskill its team on Generative AI. Explain how Generative AI can benefit the company in terms of improving operations, customer engagement, and overall efficiency.
+```
+
+One-shot Prompt:
+
+```
+Cymbal Solar is a solar installation company aiming to enhance its team’s skills in Generative AI. Here is an example of how Generative AI can help in predictive maintenance: By analyzing data from sensors on solar installations, Generative AI can predict equipment failures before they occur, allowing for proactive maintenance. Now, explain how Generative AI can also benefit Cymbal Solar in other areas such as operations, customer engagement, and efficiency.
+```
+
+Few-shot Prompt:
+
+```
+Cymbal Solar wants to upskill its team on Generative AI. Here are a few ways Generative AI can benefit the company:
+
+1. **Design Optimization**: Generative AI can optimize solar panel layouts by analyzing site-specific data, improving energy capture, and reducing installation costs.
+
+2. **Predictive Maintenance**: AI can predict equipment failures before they happen by analyzing sensor data, allowing for proactive maintenance.
+
+Now, provide additional examples of how Generative AI can benefit Cymbal Solar in improving operations, customer engagement, and overall efficiency.
+```
+
+## Task #2. Write a Prompt to Create Levels of Technical Knowledge for Generative AI:
 
 Next, ask the model to create four levels of technical knowledge for Generative AI and put the results into a table. This will allow us to create categories we can use later. 
 
