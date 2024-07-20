@@ -42,7 +42,7 @@ Copy this prompt into Gemini and review the output.
 Cymbal Solar is our company. We need to upskill our team on Generative AI. How can Generative AI help this solar installation company?
 
 ```
-
+<br>
 Here’s why the above prompt for Cymbal Solar qualifies as a zero-shot prompt:
 
 | Aspect            | Description                                                                                                   |
@@ -65,6 +65,8 @@ Copy this prompt into Gemini and review the output.
 Cymbal Solar, a leading solar installation company, seeks to upskill its team on Generative AI. Explain how Generative AI can benefit Cymbal Solar in improving its operations, customer engagement, and overall efficiency.
 
 ```
+
+<br>
 
 Here’s why the above prompt for Cymbal Solar qualifies as a one-shot prompt:
 | Aspect            | Description                                                                                                   |
@@ -90,6 +92,8 @@ Now, your turn:
 Explain how Generative AI can benefit Cymbal Solar in improving its operations, customer engagement, and overall efficiency.
 ```
 
+<br>
+
 Here’s why the above prompt for Cymbal Solar qualifies as a few-shot prompt:
 
 | Aspect            | Description                                                                                                   |
@@ -114,8 +118,7 @@ Here’s why the above prompt for Cymbal Solar qualifies as a few-shot prompt:
 
  <br> 
  <br> 
- <br> 
- <br> 
+ 
 
 
 
