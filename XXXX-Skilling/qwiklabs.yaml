@@ -1,0 +1,44 @@
+---
+schema_version: 2
+entity_type: Lab
+title: 'Exploratory Data Analysis using Bigquery and Workbench Instances'
+description: Exploratory Data Analysis using Bigquery and and Workbench Instances
+default_locale: en
+duration: 7000
+max_duration: 7200
+level: intermediate
+tags:
+- Vertex AI
+- Colab Enterprise
+- BigQuery
+- Machine learning
+- BigQuery Machine Learning
+- Workbench
+- Python
+
+credits: 1
+environment:
+  resources:
+    - type: gcp_user
+      id: user_0
+      permissions:
+        - project: project_0
+          roles:
+            - roles/editor
+            - roles/owner
+            - roles/bigquery.admin
+            - roles/ml.admin
+            - roles/compute.admin
+            - roles/dataflow.admin
+    - type: gcp_project
+      id: project_0
+      variant: gcp_low_extra
+  student_visible_outputs:
+    - label: "Open Google Cloud console"
+      reference: project_0.console_url
+    - label: "Username"
+      reference: user_0.username
+    - label: "Password"
+      reference: user_0.password
+    - label: "Project ID"
+      reference: project_0.project_id
