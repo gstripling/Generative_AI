@@ -16,8 +16,11 @@ You are a Project Manager/Program Manager tasked with writing prompts to help yo
 
 
 ### We will use Gemini as our Large Language Model.
+<br> 
 
 ![gemini](img/gemini.png)
+
+<br> 
 
 There are various types of prompts used in AI, each serving a specific purpose:
 
@@ -27,8 +30,7 @@ There are various types of prompts used in AI, each serving a specific purpose:
 | One-shot prompts  | Prompts that provide one example to guide the model on how to generate the desired response.      |
 | Few-shot prompts  | Prompts that include a few examples to illustrate the task, helping the model understand the context and expectations.  |
 
-
-
+<br> 
 
 ## Zero-shot prompting
 
@@ -51,6 +53,7 @@ Here’s why the above prompt for Cymbal Solar qualifies as a zero-shot prompt:
 | Zero-shot Prompt  | It provides no examples or additional context, relying on the model's general knowledge to generate the response. |
 
 
+<br> 
 
 ## One-shot prompting
 
@@ -71,8 +74,7 @@ Here’s why the above prompt for Cymbal Solar qualifies as a one-shot prompt:
 | Expected Output   | The response should be detailed and structured, providing a comprehensive overview of the potential benefits.  |
 | One-shot Prompt   | It expects one comprehensive response without providing examples, relying on the responder's knowledge and understanding. |
 
-
-
+<br>
 
 ## Few-shot prompting
 
@@ -97,6 +99,8 @@ Here’s why the above prompt for Cymbal Solar qualifies as a few-shot prompt:
 | Expected Output   | The response should be detailed and structured, providing a comprehensive overview of the potential benefits.  |
 | Few-shot Prompt   | It includes an example response about predictive maintenance, guiding the responder on how to approach the task.  |
 
+
+<br>
 
 ### Comparison between zero-shot, one-shot, and few-shot prompting methods
 
