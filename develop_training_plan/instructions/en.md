@@ -1,4 +1,4 @@
-# Design a Survey Using Prompt Design
+# Develop a Training Plan using Gemini
 
 ## Overview
 
