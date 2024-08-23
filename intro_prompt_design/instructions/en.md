@@ -45,6 +45,7 @@ Cymbal Solar is our company. We need to upskill our team on Generative AI. How c
 <br>
 Here’s why the above prompt for Cymbal Solar qualifies as a zero-shot prompt:
 
+
 | Aspect            | Description                                                                                                   |
 |-------------------|---------------------------------------------------------------------------------------------------------------|
 | Clear Context     | The prompt specifies the company (Cymbal Solar) and its goal (upskilling the team on Generative AI).          |
