@@ -6,7 +6,7 @@
 
 Use Case: Cymbal Solar is a energy company looking to upskill their team on Generative AI. They are particular interested in several key area: Project Management, Marketing, and Digital Transformation using Generative AI. They are currently a Google Cloud customer.
 
-You are a Project Manager/Program Manager tasked with writing prompts to help your team xxxxxxx. You are somewhat familiary with using Gemini or Chat GPT or other Large Language Models by inputing text or images.
+You are a Project Manager/Program Manager tasked with writing prompts to help your team upskill. You are somewhat familiary with using Gemini or Chat GPT or other Large Language Models by inputing text or images.
 
 ### Learning objectives
 
