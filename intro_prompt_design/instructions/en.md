@@ -44,7 +44,7 @@ Cymbal Solar is our company. We need to upskill our team on Generative AI. How c
 ```
 <br>
 Here’s why the above prompt for Cymbal Solar qualifies as a zero-shot prompt:
-
+<br> 
 
 | Aspect            | Description                                                                                                   |
 |-------------------|---------------------------------------------------------------------------------------------------------------|
